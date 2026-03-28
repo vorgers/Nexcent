@@ -1,0 +1,365 @@
+.main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main_text > h1,
+.unlock_content > h1 {
+    font-family: SemiBold, sans-serif;
+    font-size: 36px;
+    color: #4D4D4D;
+    margin: 0;
+}
+
+.main_text > p {
+    font-family: Regular, sans-serif;
+    font-size: 16px;
+    color: #717171;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.main_cards,
+.main_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_image {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main_image > img {
+    margin-right: 136px;
+}
+
+.main_image > img:last-child {
+    margin: 0;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 266px;
+    padding: 32px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    margin-right: 128px;
+}
+
+.main_card:last-child {
+    margin: 0;
+}
+
+.main_card > h1 {
+    font-family: SemiBold, sans-serif;
+    font-size: 28px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 231px;
+    height: 72px;
+}
+
+.main_card > p {
+    font-family: Regulart, sans-serif;
+    font-size: 14px;
+    color: #717171;
+    text-align: center;
+    margin: 0;
+    width: 251px;
+    height: 60px;
+}
+
+.main_unlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-top: 42px;
+   
+}
+
+.unlock_content > h1 {
+    width: 600px;
+    height: 88px;
+    margin-bottom: 16px;
+}
+
+.unlock_content p {
+    font-family: Regular, sans-serif;
+    font-size: 14px;
+    color: #717171;
+    margin: 0;
+    width: 660px;
+    height: 80px;
+    margin-bottom: 32px;
+}
+
+.achivments {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F7FA;
+    padding: 64px 144px;
+}
+
+.achivments_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 540px;
+    height: 120px;
+    margin-right: 72px;
+}
+
+.achivments_text > h1 {
+    font-family: SemiBold, sans-serif;
+    font-size: 36px;
+    color: #4D4D4D;
+    width: 408px;
+    margin: 0;
+}
+
+.achivments_text > p {
+    margin: 0;
+    font-family: Regular, sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.counts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:first-child {
+    margin-bottom: 40px;
+}
+
+.row_card {
+    display: flex;
+    align-items: center;
+    width: 255px;
+}
+
+.row_card_first {
+   margin-right: 30px;
+
+}
+
+.row_card img {
+    margin-right: 16px;
+}
+
+.row_card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row_card_text h1 {
+    margin: 0;
+    font-family: SemiBold, sans-serif;
+    font-size: 28px;
+    color: #4D4D4D;
+}
+
+.row_card_text p {
+    margin: 0;
+    font-family: Regular, sans-serif;
+    font-size: 16px;
+    color: #717171;
+}
+
+.unlock_p {
+    height: 120px !important;
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    background: #F5F7FA;
+    padding: 32px 144px;
+}
+
+.customer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 748px;
+    height: 324px;
+    margin-left: 78px;
+    margin-top: 3px;
+}
+
+.customer_text h1 {
+    font-family: Medium, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #717171;
+}
+
+.customer_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.customer_name h1 {
+    margin: 0;
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    color: #4CAF4F;
+    margin-bottom: 8px;
+}
+
+.customer_name p {
+    margin: 0;
+    font-family: Regular, sans-serif;
+    font-size: 16px;
+    color: #89939E;
+}
+
+.customer_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.customer_image {
+    display: flex;
+}
+
+.customer_image img {
+    margin-right: 41px;
+}
+
+.customer_image img:last-child {
+    margin: 0;
+}
+
+.customer_right {
+    display: flex;
+}
+
+.customer_right h1 > a {
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 36px;
+    color: #4CAF4F;
+    text-decoration: none;
+}
+
+.customer_right h1 > a:hover {
+    cursor: pointer;
+    color: #429644;
+    text-decoration: underline;
+}
+
+.community_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.community_title h1 {
+    margin: 0;
+    font-family: SemiBold, sans-serif;
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+.community_title p {
+    margin: 0;
+    margin-top: 8px;
+    font-family: Regular, sans-serif;
+    font-size: 16px;
+    color: #717171;
+    width: 628px;
+    text-align: center;
+}
+
+.community {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 95px;
+}
+
+.community_card {
+    position: relative;
+    width: 368px;
+    height: 366px;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+
+.community_text {
+    position: absolute;
+    padding: 16px;
+    text-align: center;
+    background: #F5F7FA;
+    width: 317px;
+    height: 176px;
+    box-shadow: 0 4px 5px 1px rgba(34, 60, 80, 0.2);
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
+.community_text h1 {
+    margin: 0;
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    color: #717171;
+}
+
+.community_text h2 > a {
+    margin: 0;
+    margin-top: 16px;
+    padding: 8px;
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    color: #4CAF4F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.community_text a:hover {
+    color: #429644;
+    cursor: pointer;
+    text-decoration: underline;
+}
+

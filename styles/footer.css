@@ -1,0 +1,135 @@
+.footer_title {
+    background: #F5F7FA;
+    padding-bottom: 32px;
+}
+
+.footer_subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_title h1 {
+    margin: 0;
+    color: #263238;
+    font-family: SemiBold, sans-serif;
+    font-size: 64px;
+    width: 887px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.footer_main {
+    background: #263238;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 190px;
+    margin-right: 125px;
+}
+
+.info > img {
+    width: 191px;
+}
+
+.text {
+    color: #F5F7FA;
+    font-family: Regular, sans-serif;
+}
+
+.text h1 {
+    font-size: 14px;
+}
+
+.text h1:first-child {
+    margin-bottom: 8px;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_list {
+    color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 160px;
+}
+
+.footer_list h1 {
+    color: #fff;
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer_list ul {
+    margin: 0;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.footer_list ul li {
+    list-style-type: none;
+    margin-bottom: 12px;
+    font-family: Regular, sans-serif;
+    font-size: 14px;
+}
+
+.footer_list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer_email {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 255px;
+}
+
+.footer_email h1 {
+    color: #fff;
+    font-family: SemiBold, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.footer_email input {
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    width: 255px;
+    height: 40px;
+    color: #fff;
+    padding-left: 12px;
+}
+
+.footer_email input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_email img {
+    position: absolute;
+    right: 12px;
+    bottom: 11px;
+}
